@@ -13,6 +13,7 @@ COPY . .
 
 # Открываем порт
 EXPOSE 3000
+EXPOSE 5555
 
 # Команда запуска (будет переопределена в docker-compose для dev режима)
 CMD ["npm", "start"]
